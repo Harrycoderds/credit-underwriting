@@ -1,0 +1,19 @@
+parameter,value,unit,source
+property,"Hypothetical single-tenant-capable industrial/logistics building, Greater Toronto Area",text,HYPOTHETICAL deal - not a real property
+rentable_sf,150000,sq ft,Assumption
+market_rent_psf,18.75,CAD per sq ft per year (net / NNN),"Lee & Associates, Toronto ON Industrial Market Overview Q3 2026, p.1 (Avg NNN asking rate $18.75) - https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Toronto-ON-Industrial.pdf"
+market_vacancy,0.0383,pct,"Lee & Associates Toronto Industrial Q3 2026, p.1 (vacancy 3.83%) - for reference only"
+underwritten_vacancy,0.05,pct,"Assumption (above the 3.83% market vacancy, to be conservative)"
+non_recoverable_opex_pct,0.03,pct of effective gross income,Assumption (management fee / non-recoverable costs on a net lease)
+structural_reserve_psf,0.15,CAD per sq ft per year,Assumption (capital reserve)
+cap_rate,0.0479,pct,"Lee & Associates Toronto Industrial Q3 2026, p.1 (cap rate 4.79%)"
+market_price_psf,356.28,CAD per sq ft,"Lee & Associates Toronto Industrial Q3 2026, p.1 (sale price $356.28 psf) - used only as a sanity check on value"
+loan_requested,35000000,CAD,Assumption (borrower asks for roughly 65% of value)
+loan_spread,0.0185,pct,Assumption (spread over 5-yr GoC for a conventional industrial mortgage)
+amort_years,25,years,Assumption (typical Canadian commercial mortgage amortization)
+term_years,5,years,Assumption
+max_ltv,0.65,pct,Assumption (conventional lender policy; 65-75% range is typical)
+min_dscr,1.25,x,Assumption (conventional lender policy; 1.20-1.25x is typical)
+min_debt_yield,0.08,pct,Assumption (lender policy)
+noi_shock,-0.10,pct,Stress: NOI change (assignment spec)
+cap_rate_shock,0.01,pct,Stress: cap rate +100 bps (assignment spec)

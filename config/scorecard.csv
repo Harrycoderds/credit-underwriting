@@ -1,0 +1,8 @@
+ratio,label,direction,weight,t1,t2,t3,t4,t5,note
+debt_ebitda,Debt / EBITDA (x),lower,0.25,1.0,2.0,3.0,4.0,5.5,"My design. Bands loosely follow typical rating-agency leverage ranges (investment grade ~<3x, high yield >4x)."
+net_debt_ebitda,Net Debt / EBITDA (x),lower,0.10,0.5,1.5,2.5,3.5,5.0,"My design. Same idea as Debt/EBITDA after subtracting cash."
+ebitda_interest,EBITDA / Interest (x),higher,0.20,12.0,8.0,5.0,3.0,1.5,"My design. Coverage under ~3x is usually speculative grade."
+fccr,Fixed Charge Coverage (x),higher,0.15,6.0,4.0,2.5,1.5,1.0,"My design. (EBITDA - capex - taxes) / interest; below 1.0x means cash after capex does not cover interest."
+current_ratio,Current Ratio (x),higher,0.10,2.0,1.5,1.2,1.0,0.8,"My design. Liquidity check."
+debt_capital,Debt / Capital,lower,0.10,0.20,0.35,0.50,0.65,0.80,"My design. Negative equity gives a value above 1.0 and the worst band."
+fcf_debt,(OCF - Capex) / Debt,higher,0.10,0.40,0.25,0.15,0.08,0.03,"My design. Share of debt that one year of free cash flow could repay."

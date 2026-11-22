@@ -1,0 +1,10 @@
+ticker,figure,spread_item,fiscal_year,annual_report_value,source
+RCH.TO,Revenue (Sales),revenue,2025,1964.027,"Richelieu Annual Report 2025, Consolidated Statement of Earnings, PDF p.68 - https://www.richelieu.com/html/An/statique/infoFinanciere/fichier/SEDAR%20RCH_RA2025_COMPLETE%20EN.pdf"
+RCH.TO,EBITDA (earnings before amortization financial costs and taxes),ebitda,2025,213.879,"Richelieu Annual Report 2025, Consolidated Statement of Earnings, PDF p.68"
+RCH.TO,Total debt (bank overdraft + LTD + lease obligations),total_debt,2025,276.913,"Richelieu Annual Report 2025, Statement of Financial Position, PDF p.67 (22.887 + 7.595 + 2.269 + 49.568 + 194.594)"
+RSI.TO,Revenue,revenue,2025,1312.629,"Rogers Sugar Q4/FY2025 Report, Highlights table, PDF p.1 - https://lanticrogers.com/media/earning-releases/2025/11/rsi_q4_2025_report_en.pdf"
+RSI.TO,EBITDA (reported; not adjusted),ebitda,2025,139.914,"Rogers Sugar Q4/FY2025 Report, Highlights table, PDF p.1"
+RSI.TO,Total debt (revolver + debentures + term loans + notes + leases),total_debt,2025,387.737,"Rogers Sugar 2025 Combined Annual Report, Statement of Financial Position, PDF p.122 (5.683 + 147.000 + 22.278 + 107.796 + 6.350 + 98.630) - https://lanticrogers.com/media/financial-reports/2026/03/2025_combined_annual_report_web_en.pdf"
+CGX.TO,Revenue,revenue,2025,1284.766,"Cineplex 2025 Annual Financial Statements, Statement of Operations, PDF p.10 - https://mediafiles.cineplex.com/investor-relations/reports/CineplexFS%20(Q4%202025).pdf"
+CGX.TO,EBITDA (reported; not adjusted),ebitda,2025,250.980,"Cineplex 2025 MD&A, non-GAAP reconciliation, PDF p.69 - https://mediafiles.cineplex.com/investor-relations/reports/CineplexMD_A%20(Q4%202025).pdf"
+CGX.TO,Total debt (long-term debt + lease obligations),total_debt,2025,1793.650,"Cineplex 2025 Annual Financial Statements, Balance Sheet, PDF p.9 (744.101 + 82.484 + 967.065)"

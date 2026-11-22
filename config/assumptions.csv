@@ -1,0 +1,9 @@
+key,value,unit,description,source
+corra,0.0255,rate,CORRA (base rate for floating loans),"Bank of Canada, CORRA 2.5500% for 2026-11-19 - https://www.bankofcanada.ca/rates/interest-rates/corra/"
+goc_5y,0.0353,rate,5-year Government of Canada benchmark yield,"Bank of Canada, 3.53% for 2026-11-19 - https://www.bankofcanada.ca/rates/interest-rates/canadian-bonds/"
+ebitda_shock,-0.20,pct,Stress: EBITDA change,Assignment spec (standard downside case)
+rate_shock,0.02,rate,Stress: increase in rates on floating debt (+200 bps),Assignment spec
+spot_check_materiality,0.02,pct,Difference above which the annual report value replaces yfinance,Assumption (my threshold)
+decline_rating,8,rating,Pro forma rating at or above this -> decline,Assumption (my policy)
+conditions_rating,5,rating,Pro forma rating at or above this -> approve with conditions,Assumption (my policy)
+min_dscr_corporate,1.25,x,Minimum pro forma DSCR wanted at base case,Assumption (common bank minimum 1.20-1.25x)
